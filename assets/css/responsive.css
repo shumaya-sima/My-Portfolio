@@ -1,0 +1,43 @@
+
+@media screen and (max-width: 991px){
+
+	.about-area .profile-photo{
+		width: 200px!important;
+		height:200px!important;
+		margin:auto;
+	}
+	.banner-area{
+	
+	height: 50vh!important;
+}
+}
+
+@media screen and (max-width:768px){
+	/*--navbar start--*/
+
+	.navbar .navbar-toggler{
+		border-color: #3E3E3E;
+		border-radius: 5px!important;
+	}
+	.navbar-nav{
+		text-align: center;
+		margin-top: 20px;
+	}
+	.navbar-nav .nav-item .nav-link{
+		border-bottom: 1px solid #3E3E3E;
+	}
+
+	.about-area .profile-photo{
+		width: 180px!important;
+		height:180px!important;
+		margin:auto;
+	}
+	.about-area .name, .designation, .social-link{
+		text-align: center;
+	}
+	.about-area button{
+		display:block;
+		margin:auto;
+		border-radius: 5px!important;
+		
+	}
