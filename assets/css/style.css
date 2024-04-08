@@ -195,6 +195,45 @@ html,body{
 }
 
 /*-------Contact Area End--------*/
+/*-------Contact Area End--------*/
+.projects-area{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #0C0C0C;
+}
+.projects-area .heading{
+	border-bottom: 1px solid #83C2fE;
+	margin-bottom:10px;
+}
+.projects-area .card{
+	overflow: hidden;
+}
+.projects-area .card .p-thumbnail{
+	width: 100%;
+	height: 250px;
+	border-top-right-radius: 6px;
+	border-top-left-radius: 6px;
+}
+.projects-area .card .p-thumbnail img{
+	width:100%;
+	height: 100%;
+	
+	object-fit: cover;
+}
+.projects-area .card:hover .p-thumbnail img{
+	transform: scale(1.2);
+	transition: .7s;
+}
+.projects-area .card .card-body .bi-eye{
+	font-size: 22px;
+
+}
+.projects-area .card .card-body p{
+	margin-top: 10px;
+	font-size: 16px;
+}
+
+/*-------Contact Area End--------*/
 
  /*-----Footer Start----*/
  footer{
